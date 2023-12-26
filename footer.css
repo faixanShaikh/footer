@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./image/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    align-items: end; 
+    height: 100vh;  
+    font-family: 'Glass Antiqua', cursive;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.201);
+    color: white;
+    padding: 20px 20px 20px 0px;
+}
+footer #left{
+    width: 75%;
+    display: flex;
+
+}
+footer #right{
+    width: 30%;
+    border-left: 3px solid grey;
+    display: flex;
+
+}
+ footer ul{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+
+}
+footer h3{
+    color: grey;
+}
